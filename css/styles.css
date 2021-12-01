@@ -1,5 +1,7 @@
 body {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: Arial, Helvetica, sans-serif;
+	/* font-family: tahoma, arial, sans-serif; */
 }
 
 form {
@@ -40,7 +42,7 @@ input:focus, textarea:focus {
 
 .portfolio-content {
 	line-height: 2;
-	color: #555;
+	color: #333;
 }
 
 .portfolio-content a {
@@ -55,8 +57,10 @@ input:focus, textarea:focus {
 	border-bottom: 1px solid #555;
 }
 
-h1, h2, h3 {
-	font-family: 'Crimson Text', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+	/* font-family: 'Crimson Text', sans-serif; */
+    /* font-family: Clarendon, tahoma, arial, sans-serif; */
+	font-family: 'Font Awesome 5 Pro';
 	letter-spacing: 1px;
 	font-weight: 300;
 	margin-bottom: 20px;
@@ -169,4 +173,17 @@ h1, h2, h3 {
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
+}
+
+/* #container {width: 100%;}
+#photo {float: left; width: 40%;}
+#content {float: right; width: 60%;} */
+
+.photo{
+    float:left;
+    width:35%;
+}
+.intro{
+    float:right;
+    width:65%;
 }

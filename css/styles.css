@@ -179,12 +179,12 @@ h1, h2, h3, h4, h5, h6 {
 .photo{
     float:left;
     width:35%;
-	padding: 1rem 1rem 1rem 1rem;
+	padding: .5rem 1rem 1rem .5rem;
 }
 .intro{
     float:right;
     width:65%;
-	padding: 1rem 1rem 1rem 1rem;
+	padding: .5rem 0rem 1rem 1rem;
 }
 
 @media screen and (max-width:768px) {
@@ -194,6 +194,6 @@ h1, h2, h3, h4, h5, h6 {
 	}
 	.intro{
 		width:100%;
-		padding: 1rem 1rem 1rem 1rem;
+		padding: .5rem 0rem 1rem 0rem;
 	}
 }

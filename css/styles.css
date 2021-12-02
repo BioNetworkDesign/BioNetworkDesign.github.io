@@ -175,10 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000;
 }
 
-/* #container {width: 100%;}
-#photo {float: left; width: 40%;}
-#content {float: right; width: 60%;} */
-
 .photo{
     float:left;
     width:35%;
@@ -186,4 +182,13 @@ h1, h2, h3, h4, h5, h6 {
 .intro{
     float:right;
     width:65%;
+}
+
+@media screen and (max-width:768px) {
+	.photo{
+		width:100%;
+	}
+	.intro{
+		width:100%;
+	}
 }

@@ -178,15 +178,18 @@ h1, h2, h3, h4, h5, h6 {
 .photo{
     float:left;
     width:35%;
+	padding: 1rem 1rem 1rem 1rem;
 }
 .intro{
     float:right;
     width:65%;
+	padding: 1rem 1rem 1rem 1rem;
 }
 
 @media screen and (max-width:768px) {
 	.photo{
 		width:100%;
+		padding: 1rem 1rem 1rem 1rem;
 	}
 	.intro{
 		width:100%;
